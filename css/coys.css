@@ -1,0 +1,23 @@
+body {
+    color: blue;
+    height: 800px;
+    background: linear-gradient(#036, #69c);
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    background-image: url('../img/coys-layer5.svg');
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    left: 290px;
+    top: 230px;
+    background-image: url('../img/coys.svg');
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: block;
+    position: absolute;
+}

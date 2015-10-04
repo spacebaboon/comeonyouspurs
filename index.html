@@ -1,0 +1,41 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/coys.css"/>
+</head>
+<body>
+<h1>COYS</h1>
+
+<!--
+<div class="container img1"></div>
+<div class="container img2"></div>
+-->
+<div class="container">
+
+    <svg height="600" width="600" preserveAspectRatio="none" viewbox="0 0 100 100">
+        <defs>
+            <filter id="dropshadow" height="130%">
+                <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+                <feOffset dx="2" dy="2" result="offsetblur"/>
+                <feMerge>
+                    <feMergeNode/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+        </defs>
+
+        <path d="M59,5 C-8,1 -15,76 54,75
+        L95,90
+        L74,69
+        C116,49 83,-14 29,18
+        C64,20 62,43 36,49
+        C1,54 10,8 59,5
+        M56,15 C104,17 95,79 32,64
+        C62,58 62,38 62,38
+        C74,36 69,17 61,22
+        Q61,18 56,15" stroke="white" stroke-width="1"
+              fill="white" filter="url(#dropshadow)"></path>
+
+    </svg>
+</div>
+</body>
+</html>
